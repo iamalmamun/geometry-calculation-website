@@ -14,6 +14,6 @@ document.getElementById('btn-triangle').addEventListener('click', function(){
     const areaCalculationField = document.getElementById('total-calculation');
     const totalCalculationString = areaCalculationField.innerText;
     const totalCalculation = parseFloat(totalCalculationString);
-    areaCalculationField.innerText = totalCalculation;
+    areaCalculationField.innerText = currentInputValue, totalCalculation;
     
 })
