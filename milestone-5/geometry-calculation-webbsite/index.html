@@ -24,11 +24,11 @@
             <h1 class="mx-28 mt-6 font-semibold">Triangle</h1>
             <h3 class="text-xs mx-20">Area(A) = 0.5 x b x h</h3>
             <div>
-                <input class="text-black" type="text" placeholder="b">
+                <input id="b-input-field" class="text-black" type="text" placeholder="b">
                 <h5 class="text-xs">cm</h5>
-                <input class="text-black" type="text" placeholder="h">
-                <h5 class="text-xs">cm</h5>
-                <button class="bg-sky-600 px-24 py-4 rounded-lg font-medium ml-4 mb-8">Calculate</button>
+                <input id="h-input-field" class="text-black" type="text" placeholder="h">
+                <h5 class="t ext-xs">cm</h5>
+                <button id="btn-triangle" class="bg-sky-600 px-24 py-4 rounded-lg font-medium ml-4 mb-8">Calculate</button>
             </div>
         </div>
         <div class="shadow">
@@ -50,8 +50,9 @@
             <h1 class="text-1xl mx-20">b = 10, h = 12</h1>
             <button class="bg-sky-600 px-24 py-4 rounded-lg font-medium ml-4 mt-20">Calculate</button>
         </div>
-        <div>
+        <div class="shadow">
             <h1 class="underline underline-offset-2 text-center font-medium">Area Calculation</h1>
+            <h3 id="total-calculation" class="text-end mr-24">cm<sup>2</sup></h3>
         </div>
         <div class="shadow">
             <img class="w-6/12 mx-auto mt-6" src="images/rhombus.png" alt="">
@@ -76,5 +77,6 @@
         </div>
     </section>
    </main>
+   <script src="js/triangle.js"></script>
 </body>
 </html>
