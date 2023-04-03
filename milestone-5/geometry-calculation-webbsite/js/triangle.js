@@ -9,7 +9,7 @@ document.getElementById('btn-triangle').addEventListener('click', function(){
     const heightNumberInputField = parseFloat(heightNumberInputFieldString);
     heightInputField.value = '';
     
-    const currentInputValue = balanceNumberInputField * heightNumberInputField;
+    const currentInputValue = 0.5 * balanceNumberInputField * heightNumberInputField;
     
     const areaCalculationField = document.getElementById('total-calculation');
     const totalCalculationString = areaCalculationField.innerText;

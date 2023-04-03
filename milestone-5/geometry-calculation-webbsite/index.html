@@ -36,11 +36,11 @@
             <h1 class="mx-28 mt-6 font-semibold">Rectangle</h1>
             <h3 class="text-xs mx-24">Area(A) = w x l</h3>
             <div>
-                <input class="text-black bg-slate-300" type="text" placeholder="w">
+                <input id="width-field" class="text-black bg-slate-300" type="text" placeholder="w">
                 <h5 class="text-xs">cm</h5>
-                <input class="text-black bg-slate-300" type="text" placeholder="l">
+                <input id="length-field" class="text-black bg-slate-300" type="text" placeholder="l">
                 <h5 class="text-xs">cm</h5>
-                <button class="bg-sky-600 px-24 py-4 rounded-lg font-medium ml-4 mb-8 mt-4">Calculate</button>
+                <button id="btn-rectangle" class="bg-sky-600 px-24 py-4 rounded-lg font-medium ml-4 mb-8 mt-4">Calculate</button>
             </div>
         </div>
         <div class="shadow">
@@ -53,6 +53,7 @@
         <div class="shadow">
             <h1 class="underline underline-offset-2 text-center font-medium">Area Calculation</h1>
             <h3 id="total-calculation" class="text-end mr-24">cm<sup>2</sup></h3>
+            <h3 id="triangle-calculation" class="text-end mr-24">cm<sup>2</sup></h3>
         </div>
         <div class="shadow">
             <img class="w-6/12 mx-auto mt-6" src="images/rhombus.png" alt="">
@@ -78,5 +79,6 @@
     </section>
    </main>
    <script src="js/triangle.js"></script>
+   <script src="js/rectangle.js"></script>
 </body>
 </html>
