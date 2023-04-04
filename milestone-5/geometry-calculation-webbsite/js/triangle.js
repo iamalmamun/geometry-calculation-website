@@ -17,3 +17,6 @@ document.getElementById('btn-triangle').addEventListener('click', function(){
     areaCalculationField.innerText = currentInputValue, totalCalculation;
     
 })
+document.getElementById('visit-page').addEventListener('click', function(){
+    window.location.href = 'question-answer.html'
+})
